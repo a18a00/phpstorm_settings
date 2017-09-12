@@ -1,0 +1,22 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="82845265-eb6f-4618-b893-07c93365124b" name="laciate-remote" url="http://193.107.88.204">
+        <fileTransfer host="193.107.88.204" port="22" rootFolder="/home/stlaciate/public_html" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="08453b27-44a5-4bb9-a555-f1e5a7124cfd" name="laciate-remote-server" url="http://www.st.laciate.dev.gate-software.com/">
+        <fileTransfer host="193.107.88.204" port="22" rootFolder="/home/stlaciate/public_html" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>

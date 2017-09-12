@@ -1,0 +1,14 @@
+<keymap version="1" name="Visual Studio copy" parent="Visual Studio">
+  <action id="$SearchWeb">
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
+  </action>
+  <action id="Editor SearchWeb">
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
+  </action>
+  <action id="Pause">
+    <keyboard-shortcut first-keystroke="ctrl pause" />
+  </action>
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="shift ctrl p" />
+  </action>
+</keymap>
