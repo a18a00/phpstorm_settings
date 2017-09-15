@@ -12,4 +12,20 @@
       <option name="HTML" value="true" />
     </context>
   </template>
+  <template name="imghref" value="&lt;a href=&quot;$URL$&quot; title=&quot;$TITLE$&quot; class=&quot;$ACLASS$&quot;&gt;$TITLE$&#10;    &lt;img src=&quot;$IMGURL$&quot; alt=&quot;$TITLE$&quot; class=&quot;$IMGCLASS$&quot;&gt;&#10;&lt;/a&gt;" toReformat="true" toShortenFQNames="true">
+    <variable name="URL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ACLASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="IMGURL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="IMGCLASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="asset" value="{{asset($STRING$)}}" toReformat="false" toShortenFQNames="true">
+    <variable name="STRING" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
