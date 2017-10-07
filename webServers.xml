@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c101a212-916c-436d-b5d2-b3965d44ddeb" name="laciate" url="http://st.laciate.dev.gate-software.com">
+        <fileTransfer host="st.laciate.dev.gate-software.com" port="22" rootFolder="/home/stlaciate/public_html" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
